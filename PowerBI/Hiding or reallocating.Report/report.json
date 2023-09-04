@@ -1,0 +1,36 @@
+{
+  "config": "{\"version\":\"5.37\",\"themeCollection\":{\"customTheme\":{\"name\":\"ThemeNew1\",\"version\":\"3.18\",\"type\":1}},\"activeSectionIndex\":0,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"objects\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection0e5c7e8ed65d0c623006",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0c55d20f02ea5420703c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":911.9999999999999,\"y\":128,\"z\":1000,\"width\":128,\"height\":96}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Budget.Scenario\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"Budget\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Scenario\"},\"Name\":\"Budget.Scenario\"}]},\"objects\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"Budget\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Scenario\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Medium'\"}}]]}}}]}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 96.00,
+          "width": 128.00,
+          "x": 912.00,
+          "y": 128.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"0dcca341e1034072988c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":7.991675338189387,\"y\":0,\"z\":0,\"width\":835.130072840791,\"height\":707.2632674297607}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"Sales.Sales in 2009\"},{\"queryRef\":\"Budget.Correct Budget Amt\"},{\"queryRef\":\"Budget.All factor\"},{\"queryRef\":\"Budget.Allocated Budget\"}],\"Rows\":[{\"queryRef\":\"Product.Color\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sales\",\"Type\":0},{\"Name\":\"b\",\"Entity\":\"Budget\",\"Type\":0},{\"Name\":\"p\",\"Entity\":\"Product\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Sales in 2009\"},\"Name\":\"Sales.Sales in 2009\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Correct Budget Amt\"},\"Name\":\"Budget.Correct Budget Amt\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"All factor\"},\"Name\":\"Budget.All factor\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Color\"},\"Name\":\"Product.Color\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Allocated Budget\"},\"Name\":\"Budget.Allocated Budget\"}]},\"objects\":{\"grid\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 707.26,
+          "width": 835.13,
+          "x": 7.99,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "ThemeNew1"
+}
