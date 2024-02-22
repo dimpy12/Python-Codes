@@ -1,0 +1,189 @@
+culture en-US
+
+	linguisticMetadata =
+			{
+			  "DynamicImprovement": "HighConfidence",
+			  "Entities": {
+			    "category.channel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Category",
+			          "ConceptualProperty": "Channel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Channel (Map View)": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "geo.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Geo",
+			          "ConceptualProperty": "State"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "State (Treemap)": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "kpi.kpi01": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "KPI",
+			          "ConceptualProperty": "KPI01"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Online Sales": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Social Media Sales": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "salesfact.total_category_volume": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SalesFact",
+			          "ConceptualProperty": "Total Category Volume"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Total Sales": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Sales": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "salesfact.total_units_ytd_var_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SalesFact",
+			          "ConceptualProperty": "Total Units YTD Var %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ROI": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Return on Investment (ROI)": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "salesfact.total_vanarsdel_units": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SalesFact",
+			          "ConceptualProperty": "Total VanArsdel Units"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Units Sold": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "salesfact.units_market_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SalesFact",
+			          "ConceptualProperty": "% Units Market Share"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ROI": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Language": "en-US",
+			  "Version": "2.0.0"
+			}
+		contentType: json
+

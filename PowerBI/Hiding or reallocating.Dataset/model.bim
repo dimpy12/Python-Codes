@@ -851,7 +851,7 @@
               "\t\tSUMX ( Sales, Sales[Quantity] * RELATED( 'Product'[Unit Cost] ) ),",
               "\t\tSUMX ( Sales, Sales[Quantity] * Sales[Net Price] )",
               "\t),",
-              "\t'Date'[Calendar Year] = \"CY 2009\" ",
+              "\t'Date'[Calendar Year] = \"CY 2008\" ",
               ")"
             ],
             "formatString": "0.00%;-0.00%;0.00%",
