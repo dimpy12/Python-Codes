@@ -6,6 +6,10 @@ relationship 1756cf82-0b54-406c-975f-23b89d86efd8
 	fromColumn: SalesFact.ProductID
 	toColumn: Product.ProductID
 
+relationship 07bc428e-2f34-468d-887f-be0998fa0278
+	fromColumn: SalesFact.Date
+	toColumn: Date.Date
+
 relationship 5e9ec1f3-b929-4a0f-bc61-33e331dfcb90
 	fromColumn: SalesFact.Zip
 	toColumn: Geo.Zip
