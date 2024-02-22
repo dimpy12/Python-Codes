@@ -124,7 +124,7 @@ table SalesFact
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure @Indicator01 = IF('SalesFact'[% Category Compete Share]<0.55,1,IF('SalesFact'[% Category Compete Share]>0.6,3,2))
+	measure @Indicator01 = IF('SalesFact'[% Category Compete Share]<0.55,1,IF('SalesFact'[% Category Compete Share]>0.6,3,2)) +1
 		formatString: 0
 		lineageTag: 16e379e5-368e-4702-a702-dd5b1c29acb5
 
